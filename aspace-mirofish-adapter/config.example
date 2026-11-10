@@ -1,0 +1,16 @@
+# Configuration operateur du service MiroFish — EXEMPLE, sans secret.
+# Copier vers un fichier d'environnement de l'operateur (jamais commite)
+# et remplir avec les cles reelles. Les cles ne vivent QUE dans
+# l'environnement de l'operateur.
+
+# LLM (format OpenAI, requis) — voir .env.example amont.
+LLM_API_KEY=
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_MODEL_NAME=gpt-4o-mini
+
+# Zep Cloud — memoire graphe (requis). ZEP_API_URL est REFUSE par l'amont.
+ZEP_API_KEY=
+
+# Frontiere de service (optionnel) — 127.0.0.1 uniquement, jamais 0.0.0.0.
+# MIROFISH_SERVICE_HOST=127.0.0.1
+# MIROFISH_SERVICE_PORT=5150
